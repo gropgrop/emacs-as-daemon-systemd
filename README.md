@@ -1,11 +1,12 @@
 # emacs-as-daemon-systemd
-Quick and dirty emacs server systemd module
+Personal modification of emacs systemd user module
 
 To use:
-1. Clone Repository
-2. Copy emacs.service to ~/.config/systemd/emacs.service
+1. Download file
+2. Copy emacs.service to:
+   /usr/lib/systemd/emacs.service
+   
 ```
 systemctl enable --user emacs
 systemctl start --user emacs
 ```
-Untested beyond user scope.
