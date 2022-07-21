@@ -1,5 +1,5 @@
 # emacs-as-daemon-systemd
-Personal modification of emacs systemd user module
+Personal modification of emacs systemd user module: When emacs config gets huge, running it as a service works much better for me.
 
 To use:
 1. Download file
